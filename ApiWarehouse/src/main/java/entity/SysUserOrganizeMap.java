@@ -1,4 +1,4 @@
-package Entity;
+package entity;
 import javax.persistence.*;
 /**
  * Created by Administrator on 2017/10/21.

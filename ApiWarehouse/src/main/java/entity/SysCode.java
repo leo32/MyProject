@@ -1,4 +1,4 @@
-package Entity;
+package entity;
 import javax.persistence.*;
 import java.sql.Timestamp;
 
@@ -7,15 +7,19 @@ import java.sql.Timestamp;
  */
 @Entity
 @Table
-public class SysButton {
-    public String ButtonCode;
-    public String ButtonName;
-    public Integer ButtonSeq;
+public class SysCode {
+    public String Code;
+    public String Value;
+    public String Text;
+    public String ParentCode;
+    public String Seq;
+    public String IsEnable;
+    public String IsDefault;
     public String Description;
-    public String ButtonIcon;
+    public String CodeTypeName;
+    public String CodeType;
     public String CreatePerson;
     public Timestamp CreateDate;
     public String UpdatePerson;
     public Timestamp UpdateDate;
-
 }

@@ -1,4 +1,4 @@
-package Entity;
+package entity;
 import javax.persistence.*;
 import java.sql.Timestamp;
 
@@ -7,12 +7,10 @@ import java.sql.Timestamp;
  */
 @Entity
 @Table
-public class SysRole {
-
-    public String RoleCode;
-    public String RoleSeq;
-    public String RoleName;
-    public String Description;
+public class SysPermission {
+    public String PermissionCode;
+    public String PermissionName;
+    public String ParentCode;
     public String CreatePerson;
     public Timestamp CreateDate;
     public String UpdatePerson;

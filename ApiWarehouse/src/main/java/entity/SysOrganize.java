@@ -1,4 +1,4 @@
-package Entity;
+package entity;
 import javax.persistence.*;
 import java.sql.Timestamp;
 
@@ -7,17 +7,12 @@ import java.sql.Timestamp;
  */
 @Entity
 @Table
-public class SysCode {
-    public String Code;
-    public String Value;
-    public String Text;
+public class SysOrganize {
+    public String OrganizeCode;
     public String ParentCode;
-    public String Seq;
-    public String IsEnable;
-    public String IsDefault;
+    public String OrganizeSeq;
+    public String OrganizeName;
     public String Description;
-    public String CodeTypeName;
-    public String CodeType;
     public String CreatePerson;
     public Timestamp CreateDate;
     public String UpdatePerson;

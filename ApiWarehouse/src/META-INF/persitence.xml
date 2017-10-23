@@ -5,7 +5,7 @@
             http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 
     <persistence-unit name="myJPA" transaction-type="RESOURCE_LOCAL">
-        <class>Entity.SysMenu</class>
+        <class>entity.SysMenu</class>
         <properties>
             <!--配置Hibernate方言 -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
